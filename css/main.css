@@ -1,4 +1,7 @@
-:root{
+body {
+  background: var(--bg-color);
+  font-family: "Bitter", serif;
+
   --bg-color: #dfe7ef;
   --player-shadow-color: rgba(50, 88, 130, 0.32);
   --cover-shadow-color: rgba(76, 70, 124, 0.5);
@@ -13,9 +16,29 @@
   --github-btn-bg-color: #24292e;
 }
 
-body {
+body.dark {
   background: var(--bg-color);
   font-family: "Bitter", serif;
+
+  --bg-color: #212121;
+  --player-shadow-color: rgba(50, 88, 130, 0.32);
+  --cover-shadow-color: rgba(76, 70, 124, 0.5);
+  --player-bg-color: #2d3136;
+  --player-controle-hover: #532ab9;
+  --drop-shadow: rgba(172, 184, 204, 0.45);
+  --player-controls-color: #fff;
+  --duration-color: #71829e;
+  --duration-bg-color: #d0d8e6;
+  --progress-index: #a3b3ce;
+  --album-info-color: #71829e;
+  --github-btn-bg-color: #24292e;
+}
+
+#toggle {
+  display: block;
+  width: 60px;
+  height: 60px;
+  
 }
 
 * {
